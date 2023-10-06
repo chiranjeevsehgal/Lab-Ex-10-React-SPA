@@ -4,9 +4,8 @@
 
 Install vite-project with npm
 
-
 ```bash
-  cd Q9-book-review-react
+  cd Q10-spa-react
   npm install
   npm run dev
 ```
