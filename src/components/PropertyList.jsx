@@ -3,7 +3,8 @@ import PropertyCard from './PropertyCard';
 
 export default function PropertyList() {
   const url =
-    'https://raw.githubusercontent.com/Punithify/punithify.github.io/main/properties.json';
+    'https://raw.githubusercontent.com/chiranjeevsehgal/Lab-Ex.10-JSON-File/main/properties.json';
+    
 
   const [data, setData] = useState([]);
 
@@ -18,7 +19,7 @@ export default function PropertyList() {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row" style={{ margin: 'auto', paddingLeft: '112px' }}>
         {data.map((property) => (
           <PropertyCard
             key={property.id}

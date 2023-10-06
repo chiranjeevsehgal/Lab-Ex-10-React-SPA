@@ -36,7 +36,8 @@ export default function MyForm() {
             />
           </Form.Group>
           <Form.Group>
-            <Button type="submit" variant="dark">
+            <Button type="submit" variant="dark" style={{ marginTop: '18px', marginBottom: '18px', marginLeft: '54px' }}>
+
               search
             </Button>
           </Form.Group>

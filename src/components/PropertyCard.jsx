@@ -9,7 +9,7 @@ export default function PropertyCard({ name, type, location }) {
       <Card.Body>
         <Card.Title>{name}</Card.Title>
         <Card.Text>{type}</Card.Text>
-        <Button variant="primary">{location}</Button>
+        <Button variant="btn btn-dark">{location}</Button>
       </Card.Body>
     </Card>
   );

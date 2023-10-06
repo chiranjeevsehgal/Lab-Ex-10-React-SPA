@@ -5,7 +5,8 @@ import { Alert } from 'react-bootstrap';
 
 export default function Search() {
   const url =
-    'https://raw.githubusercontent.com/Punithify/punithify.github.io/main/properties.json';
+    'https://raw.githubusercontent.com/chiranjeevsehgal/Lab-Ex.10-JSON-File/main/properties.json';
+    
 
   const [data, setData] = useState([]);
   const [searchItems, setSearchItems] = useState([]);
